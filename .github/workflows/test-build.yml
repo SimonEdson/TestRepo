@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   build:
-    name: Build
+    name: Test Build
     runs-on: windows-latest
     steps:
       - name: Checkout
