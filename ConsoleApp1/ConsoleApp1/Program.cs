@@ -2,6 +2,6 @@
 
 Console.WriteLine("Goodbye, World!");
 
-Console.WriteLine("Press a key to complete 8");
+Console.WriteLine("Press a key to complete ');
 
 Console.ReadKey();
