@@ -22,3 +22,7 @@ jobs:
 
       - name: Build
         run: dotnet build "ConsoleApp1/ConsoleApp1.slnx" --configuration Release
+
+      # Execute all unit tests in the solution
+      - name: Execute unit tests
+        run: dotnet test
